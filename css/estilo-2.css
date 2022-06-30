@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+@font-face {
+    font-family: 'Kdam Thmor Pro';
+    font-style: normal;
+    font-weight: 400;
+    src:
+        local('Kdam Thmor Pro'),
+        url('/fonts/KdamThmorPro-Regular.ttf') format('truetype')
+}
+
+body {
+
+    background: linear-gradient(rgb(255, 0, 43), fuchsia, purple);
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: white;
+}
+
+.titulo1 {
+    background-color: rgba(255, 255, 255, 0.27);
+    border-radius: 80%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 45px;
+}
+
+h1 {
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+.contenedor-principal {
+    background-color: rgba(255, 255, 255, 0.292);
+    padding: 10px;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 80px;
+    
+}
+
+#header {
+    padding: 5px;
+}
+
+section {
+    border-radius: 5px;
+}
+
+.contenedor2 {
+    color:blue ;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+h2 {
+    margin-top: 40px;
+    letter-spacing: 2px;
+    font-size: 23px;
+    /* margin-bottom: 0px; */
+    /* text-align: left; */
+    text-align: center;
+}
+
+h2::before {
+    content: "<<< ";
+    color: white;
+}
+
+h2::after {
+    content: " >>> ";
+    color: white;
+}
+
+h3 {
+    justify-content: right;
+    margin-bottom: 3px;
+    
+}
+
+img {
+    float: left;
+    width: 40%;
+    border-radius: 30px;
+    border: 5px solid blue
+}
+
+article{
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.linea-punteada {
+    width: 160px;
+    color: blue;
+    border-top: 2px double;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 250px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.boton {
+    border: 5px solid rgb(210, 192, 185);border: 5px solid rgb(210, 192, 185);
+    box-shadow: 0 0 20px white;
+    margin-left: 20%;
+    margin-top: 70px;
+    width: 85px;
+    height: 35px;
+    display: inline-flex;
+    background-color: blue;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+#footer {
+    background-color: rgba(192, 189, 186, 0.462);
+    /* height: 5px; */
+    border-radius: 80px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
